@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fileLog>
+<createdFiles>
+<entry name="licenses/LICENSE.visad" shared="false" uninstallMode="0"/>
+<entry name="idv.jar" shared="false" uninstallMode="0"/>
+<entry name="idv.gif" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/j3dcore.jar" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents/Resources/idv.icns" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/libjogl_cg.jnilib" shared="false" uninstallMode="0"/>
+<entry name=".install4j/installation.log" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/Resources/app.icns" shared="false" uninstallMode="0"/>
+<entry name="NOTICE" shared="false" uninstallMode="0"/>
+<entry name="local-visad.jar" shared="false" uninstallMode="0"/>
+<entry name="auxdata.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_0_1t6da8r.utf8" shared="false" uninstallMode="2"/>
+<entry name=".install4j/user.jar" shared="false" uninstallMode="2"/>
+<entry name=".install4j/i4j_extf_4_1t6da8r.txt" shared="false" uninstallMode="2"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/gluegen-rt.jar" shared="false" uninstallMode="0"/>
+<entry name="simpleIDV" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/libgluegen-rt.jnilib" shared="false" uninstallMode="0"/>
+<entry name=".install4j/autoUninstall.0" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/vecmath.jar" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents/MacOS/run_script" shared="false" uninstallMode="0"/>
+<entry name="ncIdv.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_1_1t6da8r_87qvs.png" shared="false" uninstallMode="2"/>
+<entry name="runIDV" shared="false" uninstallMode="0"/>
+<entry name="licenses/LICENSE.jdom" shared="false" uninstallMode="0"/>
+<entry name="licenses/LICENSE.jython" shared="false" uninstallMode="0"/>
+<entry name=".install4j/stats.properties" shared="false" uninstallMode="2"/>
+<entry name=".install4j/install4j" shared="false" uninstallMode="2"/>
+<entry name="licenses/LICENSE" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4jparams.conf" shared="false" uninstallMode="2"/>
+<entry name="licenses/LICENSE.apache" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_3_1t6da8r.gif" shared="false" uninstallMode="2"/>
+<entry name="simpleidv.jar" shared="false" uninstallMode="0"/>
+<entry name="visad.jar" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/libjogl_awt.jnilib" shared="false" uninstallMode="0"/>
+<entry name="jython.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/MessagesDefault" shared="false" uninstallMode="2"/>
+<entry name="licenses/LICENSE.jpeg2000" shared="false" uninstallMode="0"/>
+<entry name=".install4j/inst_jre.cfg" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/PkgInfo" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/j3dutils.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_5_1t6da8r_1p8nwo0.ico" shared="false" uninstallMode="2"/>
+<entry name="runIDV.ico" shared="false" uninstallMode="0"/>
+<entry name=".install4j/install.prop" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/jogl.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4jruntime.jar" shared="false" uninstallMode="2"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/Resources/i4jlauncher.config" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/MacOS/JavaApplicationStub" shared="false" uninstallMode="0"/>
+<entry name="macos-java3d_jogl.zip" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents/Info.plist" shared="false" uninstallMode="0"/>
+<entry name=".install4j/response.varfile" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions/libjogl.jnilib" shared="false" uninstallMode="0"/>
+<entry name="external.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j/i4j_extf_2_1t6da8r_1znfkd.png" shared="false" uninstallMode="2"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/Info.plist" shared="false" uninstallMode="0"/>
+</createdFiles>
+<createdDirs>
+<entry name="/Users/lesserwhirls/Library/Java/Extensions" shared="false" uninstallMode="0"/>
+<entry name="/Users/lesserwhirls/Library/Java" shared="false" uninstallMode="0"/>
+<entry name="licenses" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/Resources" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents/MacOS" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app/Contents" shared="false" uninstallMode="0"/>
+<entry name="Integrated Data Viewer Uninstaller.app" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents/Resources" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents/MacOS" shared="false" uninstallMode="0"/>
+<entry name="IDV.app/Contents" shared="false" uninstallMode="0"/>
+<entry name="IDV.app" shared="false" uninstallMode="0"/>
+<entry name=".install4j" shared="false" uninstallMode="0"/>
+<entry name="." shared="false" uninstallMode="0"/>
+</createdDirs>
+</fileLog>

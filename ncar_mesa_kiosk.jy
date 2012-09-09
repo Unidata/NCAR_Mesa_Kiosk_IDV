@@ -1,0 +1,95 @@
+#
+# Script to load a bundle for the NCAR Mesa Lab
+# kiosk display. The script does the following:
+#    1) load bundle
+#    2) make full screen
+#    3) hide the sidebar legend
+#    4) spin the globe display
+#
+# Note, this must be used with the special IDV
+# build that includes code to allow for MacOSX
+# style full screens on Mac systems. Hopefully
+# soon this will be in the nightly build
+#
+# Use: 
+#
+# Edit the varible `bundle` to indicate  the name
+# of the bundle file. For example, 
+#
+# bundle = "my_bundle.xidv"
+#
+# Note that this variable is defined immediately
+# following the import statements below this
+# text. That's it - nothing else to edit! 
+# ***Also note***
+# The bundle file is assumed to be located in the
+# same directory as this jython script!
+#
+# The NCAR Mesa lab kiosk environment is setup
+# such that a bash script is used to star the IDV
+# and run this jython script. To run the IDV witout
+# using the startup script, please do the following
+# and edit the paths as needed:
+#
+# /Applications/IDV_3.1/runIDV -islfile ncar_mesa_kiosk.jy -islinteractive
+#
+# Sean Arms, 2012-09-07
+
+import ucar.unidata.idv.ui.IdvWindow as IdvWindow
+import com.apple.eawt.Application as Application
+import java.awt.Window as Window
+import time
+import os
+#
+# name (not path) of bundle file
+#
+bundle = "ncar_mesa_kiosk.xidv"
+
+###############################
+# DO NOT EDIT BELOW THIS LINE #
+###############################
+#
+# construct the full path to the bundle
+# The Env Variable NCAR_MESA_KIOSK_DIR
+# is set in the bash startup script. This
+# jython script assumes that the bundle file
+# and the idv startup script are in the same
+# directory.
+#
+base_dir = os.getenv("NCAR_MESA_KIOSK_DIR")
+bundle_location = os.path.join(base_dir,bundle)
+
+#
+# load bundle
+#
+loadBundle(bundle_location)
+
+
+#
+# get main map view window
+#
+windows = IdvWindow.getMainWindows()
+window = windows[0]
+
+#
+# make the main map window full screen, macosx style
+# also, give the IDV one second to go into full screen
+# * this needs to be done to give the IDV time to grab
+#   the correct size of the full screen; this size is 
+#   needed by the IDV to compute where to 'hide' the 
+#   legend.
+#
+app = Application()
+app.requestToggleFullScreen(window.getFrame())
+time.sleep(1)
+
+#
+# get the view manager and hide the legend
+#
+vm = idv.getViewManager()
+vm.setSideLegendPosition('hidden')
+
+#
+# make the globe display spin
+#
+vm.setAutoRotate(True)

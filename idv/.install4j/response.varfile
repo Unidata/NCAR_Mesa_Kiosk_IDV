@@ -1,0 +1,11 @@
+#install4j response file for Integrated Data Viewer 3.1
+#Sat Sep 01 08:14:01 MDT 2012
+installJOGLAction$Boolean=true
+sys.adminRights$Boolean=false
+sys.programGroupDisabled$Boolean=true
+glForUser$Integer=0
+sys.component.66$Boolean=true
+sys.languageId=en
+sys.installationDir=/Applications/IDV_3.1
+sys.component.295$Boolean=true
+sys.component.67$Boolean=true
