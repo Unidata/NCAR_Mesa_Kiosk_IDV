@@ -1,10 +1,5 @@
 #!/bin/bash
 #
-# Check for IDV and bundle updates
-#
-echo "Check for updates"
-git pull upstream master
-#
 #grab the current directory
 #
 dirname=`dirname $0`
@@ -14,6 +9,13 @@ dirname=`dirname $0`
 #
 echo "Set NCAR_MESA_KIOSK_DIR environmental variable"
 export NCAR_MESA_KIOSK_DIR=${dirname}
+
+#
+# Check for IDV and bundle updates
+#
+cd ${NCAR_MESA_KIOSK_DIR}
+echo "Check for updates"
+git pull upstream master
 
 #
 # run the IDV
