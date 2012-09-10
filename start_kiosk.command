@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# Check for IDV and bundle updates
+#
+git pull upstream master
+#
 #grab the current directory
 #
 dirname=`dirname $0`
