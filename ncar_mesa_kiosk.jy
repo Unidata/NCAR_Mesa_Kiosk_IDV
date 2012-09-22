@@ -3,7 +3,8 @@
 # kiosk display. The script does the following:
 #    1) load bundle
 #    2) make full screen
-#    3) hide the sidebar legend
+#    3) clear, hide, and make it hard to see the
+#       area of  the sidebar legend
 #    4) spin the globe display
 #
 # Note, this must be used with the special IDV
@@ -84,10 +85,18 @@ app.requestToggleFullScreen(window.getFrame())
 time.sleep(1)
 
 #
-# get the view manager and hide the legend
+# get the view manager 
+# clear the legend content
+# hide the legend
+# make 'click-and-drag' resize 1 px wide
+# disable one touch expand
 #
 vm = idv.getViewManager()
+vm.getSideLegend().doRemove()
 vm.setSideLegendPosition('hidden')
+vm.getSideLegendContainer().setDividerSize(1)
+vm.getSideLegendContainer().setOneTouchExpandable(False)
+
 
 #
 # make the globe display spin
