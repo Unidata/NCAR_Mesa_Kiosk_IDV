@@ -71,7 +71,6 @@ loadBundle(bundle_location)
 #
 windows = IdvWindow.getMainWindows()
 window = windows[0]
-
 #
 # make the main map window full screen, macosx style
 # also, give the IDV one second to go into full screen
@@ -91,11 +90,14 @@ time.sleep(1)
 # make 'click-and-drag' resize 1 px wide
 # disable one touch expand
 #
-vm = idv.getViewManager()
-vm.getSideLegend().doRemove()
-vm.setSideLegendPosition('hidden')
-vm.getSideLegendContainer().setDividerSize(1)
-vm.getSideLegendContainer().setOneTouchExpandable(False)
+#vm = idv.getViewManager(ViewDescriptor("Western US"))
+vms = idv.getVMManager().getViewManagers()
+for vm in vms:
+#print len(vm)
+    vm.getSideLegend().doRemove()
+    vm.setSideLegendPosition('hidden')
+    vm.getSideLegendContainer().setDividerSize(1)
+    vm.getSideLegendContainer().setOneTouchExpandable(False)
 
 
 #
