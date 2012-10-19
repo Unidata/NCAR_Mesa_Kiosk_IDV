@@ -27,24 +27,7 @@ error_msg="IDV failed to start. Please contact support-idv@unidata.ucar.edu"
 
 dirname=`dirname $0`
 
-java="java"
-if test -f jre/bin/java; then
-##We are in the installer directory
-    java=./jre/bin/${java}
-else
-##Try using the dirname of this script
-    if test -f ${dirname}/jre/bin/java; then
-       java=${dirname}/jre/bin/${java}
-    else
-       if test  ${JAVA_HOME}; then
-##Try using JAVA_HOME
-          java=${JAVA_HOME}/bin/${java}
-       else
-##Try just using java
-          java=${java}
-      fi
-    fi
-fi
+java="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Commands/java"
 
 # On some UNIX operating systems, the line below will not work. The
 # root issue is that /bin/sh is not completely standard across all
